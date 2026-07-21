@@ -52,11 +52,36 @@ $ whoami
 
 ## ⚡ What I'm Building
 
-<a href="https://github.com/MjxUpUp/Forge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MjxUpUp&repo=Forge&theme=tokyonight&hide_border=true" alt="Forge"/></a>
-<a href="https://github.com/MjxUpUp/DevWorkbench"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MjxUpUp&repo=DevWorkbench&theme=tokyonight&hide_border=true" alt="DevWorkbench"/></a>
-<br/>
-<a href="https://github.com/MjxUpUp/AgentFare"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MjxUpUp&repo=AgentFare&theme=tokyonight&hide_border=true" alt="AgentFare"/></a>
-<a href="https://github.com/MjxUpUp/AgentLink"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MjxUpUp&repo=AgentLink&theme=tokyonight&hide_border=true" alt="AgentLink"/></a>
+<table>
+  <tr>
+    <td width="50%" align="left">
+      <a href="https://github.com/MjxUpUp/Forge"><b>🛡️ Forge</b></a><br/>
+      <sub>AI dev gate engine — structured quality gates for AI-generated code</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+      <img src="https://img.shields.io/github/stars/MjxUpUp/Forge?style=flat-square"/>
+    </td>
+    <td width="50%" align="left">
+      <a href="https://github.com/MjxUpUp/DevWorkbench"><b>🧰 DevWorkbench</b></a><br/>
+      <sub>本地项目工作台 — agent 内核 · 工作流编排 · 一键启动工具链</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/github/stars/MjxUpUp/DevWorkbench?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="left">
+      <a href="https://github.com/MjxUpUp/AgentFare"><b>🧭 AgentFare</b></a><br/>
+      <sub>LLM API cost optimizer — intelligent model routing</sub><br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/github/stars/MjxUpUp/AgentFare?style=flat-square"/>
+    </td>
+    <td width="50%" align="left">
+      <a href="https://github.com/MjxUpUp/AgentLink"><b>🔗 AgentLink</b></a><br/>
+      <sub>P2P communication layer for AI programming agents</sub><br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/github/stars/MjxUpUp/AgentLink?style=flat-square"/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
