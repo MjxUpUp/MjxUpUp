@@ -6,7 +6,8 @@
    - 邮箱已替换为真实邮箱
    - langs 去掉 Python（实证：原创项目无 Python），聚焦 TS · Go · Rust
    - focus 改为 AI Coding · Dev Tooling（对齐 Forge/DevWorkbench/AgentFare/AgentLink 主线）
-   - 新增 building 字段 + 项目卡片 + Top Languages，具体化产出
+   - 新增 building 字段 + 项目卡片，具体化产出
+   - 所有外部图片改用 shields.io（脱离 github-readme-stats vercel 公共实例限流，零裂图）
    - 移除 profile views 计数器（装饰性）
   仍为推断值，按你真实情况核对替换：
    - shell : zsh · starship
@@ -85,7 +86,8 @@ $ whoami
 
 <br/>
 
-<a href="https://github.com/MjxUpUp"><img src="https://github-readme-stats.vercel.app/api?username=MjxUpUp&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Stats"/></a>
-<a href="https://github.com/MjxUpUp"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MjxUpUp&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages"/></a>
+<a href="https://github.com/MjxUpUp?tab=repositories"><img src="https://img.shields.io/badge/public%20repos-16-7AA2F7?style=flat-square&logo=github&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/on%20github%20since-2018-9ECE6A?style=flat-square"/>
+<img src="https://img.shields.io/badge/open%20to%20collab-7AA2F7?style=flat-square&logo=handshake&logoColor=white"/>
 
 </div>
