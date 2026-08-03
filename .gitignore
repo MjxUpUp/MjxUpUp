@@ -1,0 +1,5 @@
+# Reasonix session metadata
+.reasonix/
+
+# Python cache
+__pycache__/

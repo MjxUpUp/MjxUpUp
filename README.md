@@ -1,93 +1,109 @@
 <!--
   GitHub Profile README — @MjxUpUp
-  风格：终端 neofetch 风。
+  风格：Bento 现代卡片（GitHub 原生 HTML 渲染，明暗主题自适应）
   ---
-  本版据实修正：
-   - 邮箱已替换为真实邮箱
-   - langs 去掉 Python（实证：原创项目无 Python），聚焦 TS · Go · Rust
-   - focus 改为 AI Coding · Dev Tooling（对齐 Forge/DevWorkbench/AgentFare/AgentLink 主线）
-   - 新增 building 字段 + 项目卡片，具体化产出
-   - 所有外部图片改用 shields.io（脱离 github-readme-stats vercel 公共实例限流，零裂图）
-   - 移除 profile views 计数器（装饰性）
-  仍为推断值，按你真实情况核对替换：
-   - shell : zsh · starship
-   - editor: VS Code · Neovim
+  维护约定：
+   - 本文件含两个【脚本维护】区块，勿手改，会被 .github/workflows/update-profile.yml 覆盖：
+     · STATS 区块    统计数字（public repos / total stars），定时 + 手动触发更新
+     · GUESTBOOK 区块  guestbook 留言（访客在 guestbook issue 下评论），评论触发更新
+   - 其余内容（卡片文案、项目描述）可手改
+   - 所有外部图片走 shields.io（零裂图）
+   - 注意：GitHub 渲染 README 时会剥离 bgcolor/style/font 等属性，本文件只用 GitHub
+     支持的 HTML（p/table/td/b/sub/a/img/br）+ 普通 markdown；markdown 语法必须放在
+     HTML 块之外才会被解析
 -->
 
-<div align="center">
-
-```text
-🔴 🟡 🟢  mjxupup@github: ~
-─────────────────────────────────────────────────────────────
-
-       .--.        user     : MjxUpUp
-      |o_o |       os       : GitHub Web
-      |:_/ |       shell    : zsh · starship
-     //   \ \      editor   : VS Code · Neovim
-    (|     | )     langs    : TS · Go · Rust
-   /'\_   _/`\     focus    : AI Coding · Dev Tooling
-   \___)=(___/     building : agent gates · workbenches · routers
-                   status   : open to collab
-
-$ cat about.md
-> building AI coding agents & developer tooling —
-> gate engines, workbenches, model routers.
-
-$ whoami
-> full-stack engineer behind Forge, DevWorkbench,
-> AgentFare & AgentLink — shipping agent infra.
-```
+<p align="center">
+  <b>👋 MjxUpUp</b><br/>
+  <sub>Building AI coding agents & developer tooling</sub><br/>
+  <sub>gate engines · workbenches · model routers</sub>
+  <br/><br/>
+  <a href="mailto:xuanjie66624@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/MjxUpUp"><img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/MjxUpUp"><img src="https://img.shields.io/badge/on%20github%20since-2018-9ECE6A?style=flat-square" alt="On GitHub since 2018"/></a>
+</p>
 
 <br/>
-
-**Connect**
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:xuanjie66624@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/MjxUpUp)
-<!--
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_LINKEDIN/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
--->
-
-<br/>
-
-## ⚡ What I'm Building
 
 <table>
-  <tr>
-    <td width="50%" align="left">
-      <a href="https://github.com/MjxUpUp/Forge"><b>🛡️ Forge</b></a><br/>
-      <sub>AI dev gate engine — structured quality gates for AI-generated code</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-      <img src="https://img.shields.io/github/stars/MjxUpUp/Forge?style=flat-square"/>
-    </td>
-    <td width="50%" align="left">
-      <a href="https://github.com/MjxUpUp/DevWorkbench"><b>🧰 DevWorkbench</b></a><br/>
-      <sub>本地项目工作台 — agent 内核 · 工作流编排 · 一键启动工具链</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white"/>
-      <img src="https://img.shields.io/github/stars/MjxUpUp/DevWorkbench?style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="left">
-      <a href="https://github.com/MjxUpUp/AgentFare"><b>🧭 AgentFare</b></a><br/>
-      <sub>LLM API cost optimizer — intelligent model routing</sub><br/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/github/stars/MjxUpUp/AgentFare?style=flat-square"/>
-    </td>
-    <td width="50%" align="left">
-      <a href="https://github.com/MjxUpUp/AgentLink"><b>🔗 AgentLink</b></a><br/>
-      <sub>P2P communication layer for AI programming agents</sub><br/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/github/stars/MjxUpUp/AgentLink?style=flat-square"/>
-    </td>
-  </tr>
+
+<tr>
+  <td width="50%" align="center" valign="top">
+    <b>👤 About</b><br/><br/>
+    <img src="https://avatars.githubusercontent.com/u/44393475?v=4&s=120" width="96" alt="MjxUpUp avatar"/><br/>
+    <b>MjxUpUp</b><br/>
+    <sub>Full-stack engineer · AI Coding · Dev Tooling</sub><br/>
+    <sub>Forge · DevWorkbench · AgentFare · AgentLink</sub><br/>
+    <sub>🤝 open to collab</sub>
+  </td>
+  <td width="50%" align="center" valign="top">
+    <b>📊 GitHub Stats</b><br/><br/>
+    <!--STATS:START-->
+<img src="https://img.shields.io/github/followers/MjxUpUp?style=flat-square&label=followers&color=7AA2F7"/>
+<img src="https://img.shields.io/badge/public%20repos-16-9ECE6A?style=flat-square"/>
+<img src="https://img.shields.io/badge/total%20stars-2-F7768E?style=flat-square"/>
+<!--STATS:END-->
+    <br/><br/>
+    <sub>TypeScript · Go · Rust</sub>
+  </td>
+</tr>
+
+<tr>
+  <td width="50%" align="center" valign="top">
+    <b>🛠️ Stack</b><br/><br/>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+    <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+    <br/><br/>
+    <sub>AI coding agents · dev tooling · full-stack</sub>
+  </td>
+  <td width="50%" align="center" valign="top">
+    <b>🚀 Building</b><br/><br/>
+    <a href="https://github.com/MjxUpUp/Forge"><b>🛡️ Forge</b></a>
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+    <img src="https://img.shields.io/github/stars/MjxUpUp/Forge?style=flat-square" alt="stars"/><br/>
+    <sub>AI dev gate engine — quality gates for AI-generated code</sub><br/><br/>
+    <a href="https://github.com/MjxUpUp/DevWorkbench"><b>🧰 DevWorkbench</b></a>
+    <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+    <img src="https://img.shields.io/github/stars/MjxUpUp/DevWorkbench?style=flat-square" alt="stars"/><br/>
+    <sub>local workbench for vibecoding — agent core · workflow orchestration · one-click toolchain</sub><br/><br/>
+    <a href="https://github.com/MjxUpUp/AgentFare"><b>🧭 AgentFare</b></a>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/github/stars/MjxUpUp/AgentFare?style=flat-square" alt="stars"/><br/>
+    <sub>LLM API cost optimizer — intelligent model routing</sub><br/><br/>
+    <a href="https://github.com/MjxUpUp/AgentLink"><b>🔗 AgentLink</b></a>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+    <img src="https://img.shields.io/github/stars/MjxUpUp/AgentLink?style=flat-square" alt="stars"/><br/>
+    <sub>P2P communication layer for AI programming agents</sub>
+  </td>
+</tr>
+
+<tr>
+  <td colspan="2" align="center" valign="top">
+    <b>🏆 Achievements</b><br/><br/>
+    <a href="https://github.com/MjxUpUp?tab=achievements">
+      <img src="https://img.shields.io/badge/Pull%20Shark-FFD166?style=flat-square&logo=github&logoColor=black" alt="Pull Shark"/>
+      <img src="https://img.shields.io/badge/Pair%20Extraordinaire-7AA2F7?style=flat-square&logo=github&logoColor=white" alt="Pair Extraordinaire"/>
+    </a>
+    <br/>
+    <sub>GitHub Achievements</sub>
+  </td>
+</tr>
+
 </table>
 
 <br/>
 
-<a href="https://github.com/MjxUpUp?tab=repositories"><img src="https://img.shields.io/badge/public%20repos-16-7AA2F7?style=flat-square&logo=github&logoColor=white"/></a>
-<img src="https://img.shields.io/badge/on%20github%20since-2018-9ECE6A?style=flat-square"/>
-<img src="https://img.shields.io/badge/open%20to%20collab-7AA2F7?style=flat-square&logo=handshake&logoColor=white"/>
+## ✍️ Guestbook
 
-</div>
+<!--GUESTBOOK:START-->
+**Sign it here:** [📖 Guestbook](https://github.com/MjxUpUp/MjxUpUp/issues/new) — leave a message and it shows up below!
+
+| Guest | Message | When |
+|---|---|---|
+| — | Be the first to sign! ✨ | — |
+
+<sub>latest 0 messages · auto-updated</sub>
+<!--GUESTBOOK:END-->
+
+<p align="center"><sub>⭐ Thanks for visiting — come say hi in the guestbook!</sub></p>
