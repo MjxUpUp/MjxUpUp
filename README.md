@@ -97,7 +97,7 @@
 ## ✍️ Guestbook
 
 <!--GUESTBOOK:START-->
-**Sign it here:** [📖 Guestbook](https://github.com/MjxUpUp/MjxUpUp/issues/new) — leave a message and it shows up below!
+**Sign it here:** [📖 Guestbook](https://github.com/MjxUpUp/MjxUpUp/issues/1)
 
 | Guest | Message | When |
 |---|---|---|
