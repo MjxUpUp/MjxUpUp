@@ -40,7 +40,7 @@
     <b>📊 GitHub Stats</b><br/><br/>
     <!--STATS:START-->
 <img src="https://img.shields.io/github/followers/MjxUpUp?style=flat-square&label=followers&color=7AA2F7"/>
-<img src="https://img.shields.io/badge/public%20repos-17-9ECE6A?style=flat-square"/>
+<img src="https://img.shields.io/badge/public%20repos-18-9ECE6A?style=flat-square"/>
 <img src="https://img.shields.io/badge/total%20stars-3-F7768E?style=flat-square"/>
 <!--STATS:END-->
     <br/><br/>
